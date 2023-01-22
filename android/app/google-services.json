@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "1055089073970",
+    "project_id": "e-commerce-food-application",
+    "storage_bucket": "e-commerce-food-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055089073970:android:bb68f242e802468a1cc12b",
+        "android_client_info": {
+          "package_name": "com.example.foodApp.e_commerce_food_ap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055089073970-rnhuk5ikhkd2qf8i3v4vf0iekefha58i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMweslJx8InTsRFUT2-RFxorUFl_AjWkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055089073970-rnhuk5ikhkd2qf8i3v4vf0iekefha58i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055089073970-opt033stcll7d6js4ns064c4l5s8jf9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodApp.eCommerceFoodApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055089073970:android:94c9d0e96475aa051cc12b",
+        "android_client_info": {
+          "package_name": "com.example.foodApp.e_commerce_food_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055089073970-rnhuk5ikhkd2qf8i3v4vf0iekefha58i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMweslJx8InTsRFUT2-RFxorUFl_AjWkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055089073970-rnhuk5ikhkd2qf8i3v4vf0iekefha58i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1055089073970-opt033stcll7d6js4ns064c4l5s8jf9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodApp.eCommerceFoodApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
