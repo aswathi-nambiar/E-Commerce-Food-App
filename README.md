@@ -4,11 +4,9 @@ A simple E Commerce Food Application developed in flutter using Provider and Fir
 
 ## Screenshots
 
-Login Page
-![login_page](https://user-images.githubusercontent.com/38459855/213986215-cad1b98d-7c58-4296-9a9a-51813125bb7e.png)
 
-Registration Page
-![registration_page](https://user-images.githubusercontent.com/38459855/213986271-187f5c34-c8dd-4ce7-a169-6f820ceac10b.png)
+![login_page](https://user-images.githubusercontent.com/38459855/213986215-cad1b98d-7c58-4296-9a9a-51813125bb7e.png)  ![registration_page](https://user-images.githubusercontent.com/38459855/213986271-187f5c34-c8dd-4ce7-a169-6f820ceac10b.png)
+
 
 HomePage
 ![home_page](https://user-images.githubusercontent.com/38459855/213986311-af8295b3-d828-4565-9b8c-30de03a58597.png)
