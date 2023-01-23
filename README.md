@@ -1,6 +1,6 @@
 # E Commerce Food App
 
-A simple E Commerce Food Application develeoped in flutter using Provider and Firebase.
+A simple E Commerce Food Application developed in flutter using Provider and Firebase.
 
 ## Screenshots
 
