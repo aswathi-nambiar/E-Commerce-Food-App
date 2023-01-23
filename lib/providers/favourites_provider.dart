@@ -74,8 +74,9 @@ class FavoritesProvider with ChangeNotifier {
 
   /// This function returns [bool] value- if the product is already favourite then
   /// it return true else false
-  bool getWishListBool(String productId) {
+  Future<bool> getWishListBool(String productId) async {
     bool isWishListed = false;
+    await getFavoritesListData();
     for (var element in getWishList) {
       if (element.productId == productId) {
         isWishListed = true;
