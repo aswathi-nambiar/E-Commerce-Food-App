@@ -1,10 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_food_app/common_widgets/count.dart';
 import 'package:e_commerce_food_app/models/product_model.dart';
 import 'package:e_commerce_food_app/providers/favourites_provider.dart';
 import 'package:e_commerce_food_app/utils/colors.dart';
 import 'package:e_commerce_food_app/utils/constants.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 
@@ -28,10 +26,15 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
   @override
   void initState() {
     super.initState();
+
+    getInitialData();
+  }
+
+  getInitialData() async {
     FavoritesProvider wishListProvider =
         Provider.of<FavoritesProvider>(context, listen: false);
-    wishListBool =
-        wishListProvider!.getWishListBool(widget.productData?.productId ?? '');
+    wishListBool = await wishListProvider
+        .getWishListBool(widget.productData?.productId ?? '');
   }
 
   @override
@@ -177,27 +180,5 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
         ),
       ),
     );
-  }
-
-  getWishListBool() {
-    FirebaseFirestore.instance
-        .collection("WishList")
-        .doc(FirebaseAuth.instance.currentUser?.uid)
-        .collection("YourWishList")
-        .doc(widget.productData?.productId)
-        .get()
-        .then((value) => {
-              if (mounted)
-                {
-                  if (value.exists)
-                    {
-                      setState(
-                        () {
-                          wishListBool = value.get("wishList");
-                        },
-                      ),
-                    }
-                }
-            });
   }
 }
